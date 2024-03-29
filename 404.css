@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+}
+
+#nav-bar {
+    margin-top: 0;
+    top: 0;
+}
+
+#not-found {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.86) 0.41%, rgba(0, 0, 0, 0.49) 40.04%, #000000 87.22%), url(./assets/background-img/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 50rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 20rem;
+}
+
+#not-found h1 {
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+#not-found p {
+    font-size: 2rem;
+    font-weight: 400;
+}
