@@ -1,0 +1,114 @@
+body {
+    background-color: black;
+}
+
+#nav-bar {
+    margin-top: 0;
+    top: 0;
+}
+
+main {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.86) 0.41%, rgba(0, 0, 0, 0.49) 40.04%, #000000 87.22%), url(./assets/background-img/bg-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 50rem;
+    width: 100%;
+    padding-top: 20rem;
+}
+
+.slick-prev,
+.slick-next {
+    position: absolute;
+    top: 50%;
+    z-index: 2; /* Increase z-index */
+    transform: translateY(-50%);
+    background: #fff; /* Add a background color to make the buttons visible */
+    border-radius: 50%; /* Optional: make the buttons circular */
+    width: 30px; /* Set a width */
+    height: 30px; /* Set a height */
+    color: #000; /* Set a color for the arrow icons */
+    line-height: 30px; /* Vertically center the arrow icons */
+    text-align: center; /* Horizontally center the arrow icons */
+}
+
+.slick-prev {
+    left: -50px; /* Use a positive value */
+}
+
+.slick-next {
+    right: 200px; /* Use a positive value */
+}
+
+
+#team-carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem auto 0 auto;
+    width: 60%;
+}
+
+#team-carousel img {
+    width: 1px !important;
+}
+
+.fundings {
+    margin: 2rem 20rem;
+}
+
+.filter {
+    filter: invert(1);
+    width: 3rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-container {
+    display: flex;
+}
+
+.options-container p {
+    margin: 0 1rem;
+    padding: 1rem;
+    background-color: #484848;
+    border-radius: 25px;
+}
+
+.options-container p:hover {
+    background-color: #46C45A;
+    cursor: pointer;
+}
+
+.funding-type-big-container {
+    width: 80rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.funding-type-container {
+    background-color: #575757;
+    width: 18rem;
+    height: 28rem;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.funding-text {
+    padding: 0.5rem;
+}
+
+.funding-img {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 20px;
+}
+
+footer {
+    margin-top: 50rem;
+}
