@@ -18,6 +18,20 @@
     z-index: 1;
     filter: brightness(50%);
 }
+
+a {
+    color: inherit;      /* Inherit the color from the parent element */
+    text-decoration: none; /* Remove the underline */
+}
+
+a:visited {
+    color: inherit;      /* Inherit the color from the parent element */
+}
+
+a:hover, a:focus, a:active {
+    color: inherit;      /* Inherit the color from the parent element */
+    text-decoration: none; /* Remove the underline */
+}
 /* Header */
 
 /* Navigation Bar */
@@ -47,11 +61,12 @@
 
 #nav-bar button {
     background-color: rgb(61, 142, 61);
-    padding: 5px;
+    padding: 0.75rem;
     border: none;
     color: #FFFFFF;
     border-radius: 5px;
     margin-left: 20px;
+    font-size: 16px;
 }
 
 /* Nav Bar - Animation */
@@ -138,6 +153,34 @@
     border-radius: 50%;
     border: 5px solid #FFFFFF;
     margin-left: -20px;
+}
+
+.try-for-free {
+    width: 10rem;
+    padding: 1rem;
+    background-color: rgb(61, 142, 61);
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.try-for-free:hover {
+    background-color: #46C45A;
+    cursor: pointer;
+}
+
+.fund-your-team {
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 1rem;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.fund-your-team:hover {
+    cursor: pointer;
+    background-color: rgb(55, 62, 68);
 }
 
 
