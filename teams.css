@@ -103,11 +103,89 @@ main {
     padding: 0.5rem;
 }
 
-.funding-img {
+.funding-img-1 {
     width: 18rem;
     height: 24rem;
     border-radius: 20px;
     z-index: 1;
+    background: url("./assets/funding/1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.funding-img-2 {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 20px;
+    z-index: 1;
+    background: url("./assets/funding/2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.funding-img-3 {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 20px;
+    z-index: 1;
+    background: url("./assets/funding/3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.funding-img-4 {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 20px;
+    z-index: 1;
+    background: url("./assets/funding/4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.funding-img-5 {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 20px;
+    z-index: 1;
+    background: url("./assets/funding/5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.funding-img-6 {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 20px;
+    z-index: 1;
+    background: url("./assets/funding/6.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.funding-img-7 {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 20px;
+    z-index: 1;
+    background: url("./assets/funding/7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.funding-img-8 {
+    width: 18rem;
+    height: 24rem;
+    border-radius: 20px;
+    z-index: 1;
+    background: url("./assets/funding/8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.team-funding-icon {
+    width: 3rem;
+    margin: 1rem 0 0 14rem;
 }
 
 footer {
